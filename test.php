@@ -41,9 +41,9 @@ class Test
 
    public function solution($A) {
 
-   	// using Gauss sum formula for positive consecutive integers
-   	// sum = (N * (N + 1)) / 2, where N is count of positive consecutive integers
-   	// integer has 32-bit or 64 bit, depending on PHP build and platform, and 32 bit is limitation 
+		// using Gauss sum formula for positive consecutive integers
+		// sum = (N * (N + 1)) / 2, where N is count of positive consecutive integers
+		// integer has 32-bit or 64 bit, depending on PHP build and platform, and 32 bit is limitation 
 		// for N * ($N + 1) when N = 100,000
 		// 32-bit int max number: 2147483647
 		// when N = 100 000, sum = 10000100000
